@@ -144,7 +144,7 @@ main .wrapper h1{
     content: ;
     display: block;
     margin-bottom: 20px;
-}
+    }
 
 .advantage-ticket{
 background: url("../img/Group.png") no-repeat;
@@ -170,13 +170,48 @@ main .wrapper h1{
     font-family: 'Inter';
      color: #FFFBFB;
 }
+.vacation {
+    background-image: url("../img/Microphone-1935-791.jpg");
+    background-repeat: no-repeat;
+   
+}
 .content {
     color: #000;
-   padding: 80px 0 126px;
+   padding: 80px 0 100px;
 
 }
 .colom-container {
     display: flex;
-    gap: 80px;
+    gap: 10px 80px;
+    flex-wrap: wrap;
+    line-height: 30px;
 }
-.vacation
+.left-column, .right-column {
+    width: 500px;
+
+}
+.content p {
+    margin-top: 25px;
+}
+.lead {
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+}
+.content .lead {
+margin: 0 0 20px;
+}
+.uniqueness {
+    padding-left: 0px;
+}
+.uniqueness li{
+    margin-bottom: 28px;
+    position: relative;
+}
+.content .wrapper:first-child {   
+    margin-bottom: 300px;
+   
+}
+/* спросить как уменьшить контейнер и сдвинуть в лево /*
