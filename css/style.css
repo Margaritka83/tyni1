@@ -1,5 +1,5 @@
 /*general */
-{
+* {
     margin: 0;
     padding: 0;
 }
@@ -133,7 +133,7 @@ main .wrapper h1{
     position: absolute;
 }
 .advantage-item{
-    flex: basis 180px;
+    flex-basis: 180px;
     background-color: #F4F4EC;
      margin: 0;
     padding: 0;
@@ -141,7 +141,7 @@ main .wrapper h1{
   
 }
 .advantage-item::before{
-    content: ;
+    content: "";
     display: block;
     margin-bottom: 20px;
     }
