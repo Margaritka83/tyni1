@@ -3,16 +3,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-font-size: 16px;
-line-height: 71px;
-font-weight: inter;
+body {
+    font-family: 'Inter';
+    font-size: 16px;
 }
 .wrapper{
    margin: 0 6.5%;
 }
-.hidden{
-   /* visibility: hidden;*/
+.hidden {
     overflow: hidden;
     width: 0;
     height: 0;
@@ -25,75 +23,60 @@ font-weight: inter;
 .site-header {
     background: #242b33;
     color: #100101;
+    line-height: 71px;
 }
-.site-header {
-    padding-top: 36px;
-    padding-bottom: 140px;
-    background-image: url("../img/horoshiy-chemodan-prosluzhit-mnogo-let-1024x682\ 1.png");
-    background-repeat: no-repeat;
-    background-position: left 140px;
-   }
-
-.main-nav {
-display: flex;
-margin-bottom: 115px;
+.bar {
+    padding: 36px 43px 38px 28px;
+    background-color: #2d343c;
+    display: flex;
+    align-items: center;
 }
 .logo {
     width: 65px;
     height: 65px;
-    margin-right: 95px; 
+    margin-right: auto; 
+}
+.link {
+    text-decoration:none ;
+    color: #fffbfb;
 }
 ul {
     list-style: none;
 }
-.contact-menu {
-    display: flex;
-}
-.contact-menu a{
-    text-decoration:none ;
-    display: block;
-    color: #fffbfb;
-}
 .site-menu{
     display: flex;
+    column-gap: 18px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-.site-menu a{
-    text-decoration:none ;
-    display: block; 
-    color: #fffbfb;   
-    margin-right: 18px;
+.site-menu .link{
+    flex-shrink: 350px;
 }
-/*.contact-menu li:last-child>a{
-    margin-right: 0px;
-}*/
-.contact-menu {
-    display: flex;
-    align-items: center;
-    margin-left:auto ;
-}/*
-.contact-menu .icon{
-    width: 17px;
-    height: 17px; 
-    display: block;
-}
-.contact-menu .icon-phono {
-    background: url("../img/phone-icon\ 1.svg")no-repeat;
-}*/
 .about-us {
-    width: 320px; 
-    padding-left: 700px;
-   }
+    background-image: url("../img/about-bg.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-us-wrap {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 285px;
+    margin-bottom: 168px;
+}
 .about-us h1 {
     font-family: 'Inter';
     line-height: 75px;
     font-size: 64px;
     margin-bottom: 30px;
-   }
+    text-align: center;
+}
 
 .btn {
     text-decoration: none;
     display: inline-block;
-    position: relative;
     padding: 5px 48px;
     text-transform: uppercase;
     color:#000;
@@ -103,76 +86,70 @@ ul {
     padding-right: 60px;
 
 }
-.btn-LightYellow {
+.btn-white {
     background-color: #F4F4EC;
 
 }
-main .wrapper h1{
+.title {
     text-align: center;
     font-size: 60px;
-   }
+    color: #fff;
+}
 .advantage{
     background: #242B33;
-   padding: px 0;
+    padding-top: 245px;
+    padding-bottom: 315px;
 }
 .advantage-list {
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 80px;
+    gap: 90px 20px;
 }
-.advantage-list li{
-    padding-top: 115px;
-    width: 180px;
-}
-.advantage-list li::after{
-    content: "";
-    width: 60;
-    height: 68;
-
-    position: absolute;
-}
-.advantage-item{
-    flex-basis: 180px;
+.advantage-item {
+    box-sizing: border-box;
+    flex-basis: 388px;
     background-color: #F4F4EC;
-     margin: 0;
-    padding: 0;
-   
-  
+    padding: 96px 0px 28px 10px;
 }
+
 .advantage-item::before{
     content: "";
     display: block;
-    margin-bottom: 20px;
-    }
+    margin-bottom: 20px;   
+    height: 150px;
+}
 
-.advantage-ticket{
+.advantage-ticket::before {
 background: url("../img/Group.png") no-repeat;
 }
-.advantage-hotel{
+.advantage-hotel::before {
     background: url("../img/Frame-1.png") no-repeat;
 }
-.advantage-transfer{
+.advantage-transfer::before {
     background: url("../img/Frame-2.png") no-repeat;
 }
-.advantage-vip{
+.advantage-vip::before {
     background: url("../img/Frame-3.png") no-repeat;
-    }
-    .advantage-insurance{
-        background: url("../img/Frame-4.png") no-repeat;
-    }
-    .advantage-mice{
-        background: url("../img/Frame.png") no-repeat;
-    }
-main .wrapper h1{
-    text-align: center;
+}
+.advantage-insurance::before {
+    background: url("../img/Frame-4.png") no-repeat;
+}
+.advantage-mice::before {
+    background: url("../img/Frame.png") no-repeat;
+}
+.vacation .title{
     font-size: 60px;
     font-family: 'Inter';
-     color: #FFFBFB;
+    padding: 40px;
+    background: #242B33;
 }
 .vacation {
     background-image: url("../img/Microphone-1935-791.jpg");
     background-repeat: no-repeat;
+    background-position: 100% 100px;
+    background-size: cover;
    
 }
 .content {
