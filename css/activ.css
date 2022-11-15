@@ -1,0 +1,53 @@
+.site-menu a:hover , .title:hover {
+    color:#AA522B;
+        }
+    .site-menu a:active , .title:active {
+        color:#57514c;
+           }
+
+    .trip-form [type="text"]:focus, .trip-form [type="mail"]:focus {
+       
+        outline-color: #AA522B;
+    }
+    .trip-form [type="text"]:not (:disabled):hover, .trip-form [type="nail"]:not (:disabled):hover {
+        color: #000;
+    }
+
+    .trip-form  [placeholder]::placeholder {
+        color: black;
+    }
+    .trip-form  [placeholder]:hover::placeholder {
+        color: #AA522B;
+    }
+    .btn-white:hover {
+        box-shadow: 10px 5px 5px #AA522B;
+            }
+            .advantage-list:hover {
+                color: #AA522B;
+                filter: drop-shadow(5px 3px 3px #AA522B);
+
+            }
+            .characteristic:hover {
+                color: #AA522B;  
+            }
+            .logo:hover img {
+                transform: rotate(-45deg);
+                transition: 3s;
+            }
+            .site-menu a:hover {
+                float: left;
+                margin: 15px;
+              -webkit-transition: margin 0.5s ease-out;
+              -moz-transition: margin 0.5s ease-out;
+              -o-transition: margin 0.5s ease-out;
+            }
+            .about-us-wrap:hover {
+                float: left;
+                margin: 35px;
+                -webkit-transition: margin 0.50s ease-out;
+                -moz-transition: margin 0.50s ease-out;
+                -o-transition: margin 0.50s ease-out;
+            }
+            .link:hover{
+                color:#AA522B;
+            }
